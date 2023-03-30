@@ -1,0 +1,12 @@
+/* Styling time! */
+/* When it comes to CSS you can layout your page however you might
+like. Take a little time and make the page look more appealing: */
+.highlight {
+    background-color: yellow;
+}
+
+.error {
+    background-color: lightcoral;
+    border: red;
+
+}
