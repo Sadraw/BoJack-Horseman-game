@@ -6,7 +6,7 @@ A quick game to learn about events in web development, featuring BoJack Horseman
 
 
 <p align="center">
-  <img src="https://github.com/Sadraw/typing-game/blob/main/images/htmlgif.gif" />
+  <img src="https://github.com/Sadraw/BoJack-Horseman-game/blob/main/images/website.gif" />
 </p>
 
 
