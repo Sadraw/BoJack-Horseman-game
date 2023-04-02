@@ -5,6 +5,11 @@ like. Take a little time and make the page look more appealing: */
     color: rgb(159, 107, 17) ;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serifSa;
     font-size: 40px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+#sentence {
+    padding-bottom: 3%;
 }
 
 body {
