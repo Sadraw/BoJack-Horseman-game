@@ -32,6 +32,10 @@ const quoteElement      = document.getElementById('quote');
 const messageElement    = document.getElementById('message');
 const typedValueElement = document.getElementById('typed-value');
 const gamePlay          = document.getElementById("typed-value");
+// const highScores        = JSON.parse(localStorage.getItem('HighScores'));
+// const score             = { name: 'Player Name', score: 100};
+// const highScoresLists   = document.getElementById('highScoresList');
+
 
  document.getElementById('start').addEventListener('click', () => {
 
@@ -108,9 +112,11 @@ typedValueElement.addEventListener('input', () => {
         // end of sentence 
         // display success 
         const elapsedTime = new Date().getTime() - startTime;
-        const message     = alert(`Congratulations! You finished in ${elapsedTime / 1000 } seconds.`);
+        const message     = `Congratulations! You finished in ${elapsedTime / 1000 } seconds.`;
         messageElement.innerText = message;
         gamePlay.disabled = true;
+        localStorage.setItem('highScores', JSON.stringify(highScores));
+
         return;
 
     } else if (typedValue.endsWith(' ') && typedValue.trim() === currentWord) {
@@ -138,9 +144,24 @@ typedValueElement.addEventListener('input', () => {
         typedValueElement.className = 'error';
     }
 
-    if(document.getElementById("typed-value".disabled == true)) {
-        
-    }
+    
+    
+// function displayHighScores() {
+//     const highScores = JSON.parse(localStorage.getItem('highScores'));
+//     if (highScores) {
+//       // Sort the high scores by score
+//       highScores.sort((a, b) => b.score - a.score);
+  
+//       // Create a string of the high scores
+//       const highScoresString = highScores
+//         .map((score, index) => `${index + 1}. ${score.name} - ${score.score}`)
+//         .join('\n');
+  
+//       // Display the high scores
+//       highScoresLists.innerText = highScoresString;
+//     }
+// }
+    // displayHighScores();
 
 
 })
