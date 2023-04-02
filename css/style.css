@@ -1,6 +1,22 @@
 /* Styling time! */
 /* When it comes to CSS you can layout your page however you might
 like. Take a little time and make the page look more appealing: */
+#type-title {
+    color: rgb(159, 107, 17) ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serifSa;
+    font-size: 40px;
+}
+
+body {
+    background-color: azure;
+    text-align: center;
+}
+
+#typing-gif {
+    padding-top: 4%;
+    /* padding-left: 4%; */
+}
+
 .highlight {
     background-color: yellow;
 }
@@ -10,3 +26,12 @@ like. Take a little time and make the page look more appealing: */
     border: red;
 
 }
+
+#start {
+    color: rgb(13, 125, 87);
+}
+
+/* 
+>Choose a different font
+>Colorize the headers
+>Resize items */

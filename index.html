@@ -3,39 +3,41 @@
 <html>
 
 <head>
-
-    <title>TYPING GAME</title>
-    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Typing Game!</title>
+    <link rel="stylesheet" href="./css/style.css">  
 
 </head>
 
 
-
-
-<header>
-
-
-
-</header>
-
-
-
 <body>
 
-    <h1>Typing game!</h1>   
-    <p>Practice your type skills with a quote from Bojack Horseman</p>
-    <p id="quote"></p>  <!-- this will display our quote  -->
-    <p id="message"></p> <!-- This will display any status messages-->
-    
-    <div>
-    <input type="text" aria-label="current word" id="typed-value"/>  <!-- The textbox for typing  -->
-        <button style="color: rgb(12, 143, 12);" type="button" id="start">Start</button>
-    </div>
-        
+<h1 id="type-title">
+    Typing Game! 
+</h1>
 
+<p>
+    Practice your typing skills with a quote from Bojack Horseman Show. Click Start to begin!
+</p>
 
-    <script> src = "./js/script.js"</script>
+<p id="quote"> 
 
+</p>
+
+<p id="message" >
+
+</p>
+
+<div>
+    <input type="text" aria-label="current word" id="typed-value" />
+    <button type="button" id="start">Start</button>
+</div>
+
+<div id="typing-gif">
+    <img src="./images/giphy.gif" alt="">
+</div>
+
+<script src="js/script.js"></script>
 </body>
 
 
