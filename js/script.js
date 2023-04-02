@@ -18,7 +18,10 @@ const quotes = [
     'I\'m this close to falling off the deep end. I know I\'m smiling right now, but the light inside me is dying.',
     'The universe is a cruel, uncaring void, The key to being happy isn\'t a search for meaning. It\'s to just keep yourself busy with unimportant nonsense, and eventually, you\'ll be dead.',
     'And finally, "I gotta say I am having the time of my life being depressed.',
-
+    'It gets easier. Every day it gets a little easier. But you gotta do it every day, that\'s the hard part. But it does get easier.',
+    'The universe is a cruel, uncaring void. The key to being happy isn\'t a search for meaning. It\'s to just keep yourself busy with unimportant nonsense, and eventually, you\'ll be dead.',
+    'In this terrifying world, all we have are the connections that we make.',
+    
 ];
 
 let words = [];

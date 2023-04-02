@@ -11,6 +11,16 @@ like. Take a little time and make the page look more appealing: */
 #sentence {
     padding-bottom: 3%;
 }
+#terrifying-quote {
+    text-align: center;
+    text-decoration: solid;
+    font-weight: bolder;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(76, 76, 219) ;
+}
 
 body {
     background-color: azure;
