@@ -1,6 +1,6 @@
 # BoJack Horseman Typing Game 
 
-A quick game to learn about events in web development, featuring BoJack Horseman! 
+<p align="center"> A quick game to learn about events in web development, featuring BoJack Horseman! </p>
 
 
 
